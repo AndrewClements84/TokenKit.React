@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "gpt-4o",
+    "Provider": "OpenAI",
+    "MaxTokens": 128000,
+    "InputPricePer1K": 0.005,
+    "OutputPricePer1K": 0.015,
+    "Encoding": "cl100k_base"
+  },
+  {
+    "Id": "gpt-4o-mini",
+    "Provider": "OpenAI",
+    "MaxTokens": 64000,
+    "InputPricePer1K": 0.002,
+    "OutputPricePer1K": 0.010,
+    "Encoding": "cl100k_base"
+  },
+  {
+    "Id": "gpt-5",
+    "Provider": "OpenAI",
+    "MaxTokens": 256000,
+    "InputPricePer1K": 0.01,
+    "OutputPricePer1K": 0.03,
+    "Encoding": "gpt5-base"
+  },
+  {
+    "Id": "gpt-5-mini",
+    "Provider": "OpenAI",
+    "MaxTokens": 128000,
+    "InputPricePer1K": 0.004,
+    "OutputPricePer1K": 0.012,
+    "Encoding": "gpt5-base"
+  },
+  {
+    "Id": "gpt-5-turbo",
+    "Provider": "OpenAI",
+    "MaxTokens": 512000,
+    "InputPricePer1K": 0.02,
+    "OutputPricePer1K": 0.05,
+    "Encoding": "gpt5-turbo"
+  },
+  {
+    "Id": "gemini-1.5-pro",
+    "Provider": "Google",
+    "MaxTokens": 128000,
+    "InputPricePer1K": 0.0025,
+    "OutputPricePer1K": 0.0075,
+    "Encoding": "text-bpe"
+  },
+  {
+    "Id": "gemini-1.5-flash",
+    "Provider": "Google",
+    "MaxTokens": 128000,
+    "InputPricePer1K": 0.00015,
+    "OutputPricePer1K": 0.00060,
+    "Encoding": "text-bpe"
+  },
+  {
+    "Id": "claude-3-opus",
+    "Provider": "Anthropic",
+    "MaxTokens": 200000,
+    "InputPricePer1K": 0.015,
+    "OutputPricePer1K": 0.075,
+    "Encoding": "claude-3"
+  },
+  {
+    "Id": "claude-3-sonnet",
+    "Provider": "Anthropic",
+    "MaxTokens": 160000,
+    "InputPricePer1K": 0.006,
+    "OutputPricePer1K": 0.012,
+    "Encoding": "claude-3"
+  },
+  {
+    "Id": "claude-3-haiku",
+    "Provider": "Anthropic",
+    "MaxTokens": 120000,
+    "InputPricePer1K": 0.00125,
+    "OutputPricePer1K": 0.005,
+    "Encoding": "claude-3"
+  }
+]
